@@ -1,0 +1,13 @@
+Planned Inputs and Outputs for "The Cooking Mathematician" 
+
+Input: 
+- User inputs recipe details, including ingredient names, quantities, and units. 
+- User enters specific measurements or adjustments needed for recipes. 
+- User can select or customize measurement units (grams, cups, ounces, etc.). 
+- User may input personal preferences or dietary restrictions for recipe storage. 
+
+Output: 
+- System displays accurate ingredient measurements based on user inputs. 
+- System provides converted measurements if needed. 
+- System saves recipes into memory for easy retrieval. 
+- System shows calculated measurements for ingredients, ensuring correct recipe proportions.
