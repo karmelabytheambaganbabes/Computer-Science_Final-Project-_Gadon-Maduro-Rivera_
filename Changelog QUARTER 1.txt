@@ -1,0 +1,45 @@
+# CHANGELOG
+
+This file meticulously tracks all notable enhancements, fixes, and modifications made to the
+Recipe Cost Calculator project.
+
+## Version v1.4.0- September 17, 2025- Sheehan Grace Maduro--
+Implemented: Local data storage to remember previously entered recipe details.
+Refined: User interface for greater clarity, now showing a complete breakdown of
+ingredients and costs upfront.
+
+## Version v1.3.1- September 10, 2025- Rhianne Faye Gadon
+Corrected: An error where inconsistent unit types (e.g., grams and ounces) led to
+miscalculations.
+Bolstered: Unit testing to ensure dependable precision in calculations.
+
+## Version v1.3.0- September 03, 2025- Kamilla Rivera
+Enabled: The option to archive recipe data, including costs, in formats like CSV or
+JSON.
+Optimized: The underlying cost computation process for efficiency gains.
+
+## Version v1.2.1- August 27, 2025- Rhianne Faye Gadon
+Resolved: A crash incident triggered by non-numerical entries for quantities or prices.
+Enhanced: Error feedback to be more descriptive, pinpointing the exact input that
+caused the issue.
+
+## Version v1.2.0- August 20, 2025- Rhianne Faye Gadon
+Introduced: Preliminary unit awareness, providing warnings for mixes like grams and
+cups.
+**Reinforced:** Validation on ingredient price inputs to prevent negative values.
+
+## Version v1.1.1- August 13, 2025- Kamilla Rivera
+Rectified: A calculation inaccuracy during recipe scaling, stemming from rounding
+issues.
+Fine-tuned: Cost display to consistently show two decimal places.
+
+## Version v1.1.0- August 06, 2025- Sheehan Grace Maduro
+Implemented: the data storage that was added.
+Added: Recipe scaling, empowering users to adjust recipe sizes and re-compute
+expenses.
+## Version v1.0.0- July 30, 2025
+
+Initial release of the Recipe Cost Calculator.
+Core capabilities:
+Entering ingredient details (name, quantity, price).
+Computing and presenting the recipe's total cost
