@@ -1,0 +1,31 @@
+START 
+     Display: "Welcome to the cooking mathematician" 
+ 
+     Input: "Enter ingredient" (ex. flour) ~ Ingredient 
+ 
+     Input: "Enter amount of the ingredient" (ex. 3) ~ Amount 
+ 
+     Input: "Enter desired unit for amount of the ingredient" (ex. Cups) ~ Unit 
+ 
+    Input: "Enter desired ingredient per serving" (ex. One cup of sugar) ~ IngredientPerServing  
+ 
+     Input: "Enter the desired amount perserving" (ex. 12g of sugar) ~ AmountPerServings 
+ 
+IF 
+     Press Confirm: "If you need unit conversion, which will auto save recipes," 
+ 
+     Press Decline: "If no needed" 
+ 
+FINAL 
+     Total Amount = (IngredientPerServing * AmountPerServings) 
+ 
+      // Adjust measurement based on original recipe 
+ 
+    AdjustedAmount = (TotalAmount / Amount) * Unit 
+ 
+    Display "To make " + AmountPerServings + " servings, use " + AdjustedAmount + " " + Unit 
+ 
+     Display: "You have finished your first recipe. If you have recommendations, please visit our 
+website." 
+ 
+END
