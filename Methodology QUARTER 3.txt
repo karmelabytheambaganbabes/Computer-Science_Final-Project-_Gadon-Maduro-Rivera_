@@ -1,0 +1,45 @@
+Methodology for Cooking Mathematician Recipe Calculation System
+ 
+1. System Initialization
+ 
+The system initiates by displaying a welcome message to the user: "Welcome to The Cooking Mathematician!".
+ 
+2. User Input Collection (Multiple Ingredients)
+ 
+The system uses a loop to collect information for each ingredient, continuing until the user enters "done" for the ingredient name. For each ingredient, it sequentially prompts for and stores the following:
+ 
+- Ingredient: The name of the ingredient (e.g., flour).
+
+- Amount: The numerical quantity of the ingredient in the original recipe (e.g., 2).
+
+- Unit: The unit of measurement for the original amount (e.g., cups).
+
+- Per Serving Amount: The numerical quantity of the ingredient needed for one serving (e.g., 0.5).
+
+- Number of Servings: The total number of desired servings (e.g., 8).
+
+- Mini Scale Option: The system asks if the user wants to use the mini scale. If yes, it prompts for and stores the scale weight (in grams); if no, it records "Not used" for the scale weight.
+ 
+3. Core Calculations
+ 
+For each ingredient, the system performs two key calculations:
+ 
+1. Total Amount Calculation:
+ Total Amount = Per Serving Amount × Number of Servings 
+This computes the total quantity of the ingredient needed for the desired number of servings.
+
+2. Adjusted Amount Calculation:
+ Adjusted Amount = Total Amount ÷ Amount 
+This adjusts the total quantity to match the original recipe’s measurement ratio, resulting in the final amount to use.
+ 
+4. Result Display
+ 
+After the user finishes entering all ingredients, the system displays a summary for the desired number of servings:
+ 
+- For each ingredient, it shows:  "- [Adjusted Amount] [Unit] of [Ingredient]" 
+
+- If the mini scale was used for an ingredient, it also shows:  "  Scale weight: [Scale Weight]g" 
+ 
+5. System Completion
+ 
+Finally, the system displays a completion message: "Recipe saved!", marking the end of the workflow.
